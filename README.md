@@ -11,15 +11,16 @@ The ResNet101 backbone was chosen for feature extraction due to its ability to c
 3) **Data Preprocessing** - Data preprocessing techniques, including center cropping, grayscale conversion, flipping, rotation at various angles, and image enhancement (brightness, contrast, and saturation adjustments), were applied to augment the dataset. This significantly increased the dataset size and improved the model's performance,where applied before training model and then annotated to increase the size of dataset. finally this technique have improved my model from mAP of 0.45 to 0.91. (Without applying image augmentation during model training, training data and validation data is increased by 60%)
 4) **Hyperparamater Tunning** - The given below table represents the hyperparameters of the model.
 
-   
-# Limitations of this project
-  Due to limited GPU resources on Google Colab, the model was trained for up to 50 epochs.
-
 ![HYP1](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/b49fe9e5-6bce-4020-8ac9-32fcc63abd19)
 ![HYP2](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/d1c68daf-9dfa-49ea-83ae-006e3ac98d3e)
 ![HYP3](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/ddd4b7bf-a58c-436d-ac75-f39ebd4a1799)
 
-In this project, I have developed a Flask-based web application that leverages the capabilities of Mask R-CNN to automate the detection of PCB components. This application provides a user-friendly interface for users to upload images of PCBs, and it returns annotated images with components highlighted and labeled.
+# Limitations of this project
+  Due to limited GPU resources on Google Colab, the model was trained for up to 50 epochs.
+  
+# Model Depolyment using Flask
+ 
+ In this project, I have developed a Flask-based web application that leverages the capabilities of Mask R-CNN to automate the detection of PCB components. This application provides a user-friendly interface for users to upload images of PCBs, and it returns annotated images with components highlighted and labeled.
 
 ![ezgif com-video-to-gif](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/0657a0da-529b-4718-95d1-29efc4f408f4)
 
