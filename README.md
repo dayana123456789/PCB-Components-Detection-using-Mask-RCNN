@@ -1,5 +1,6 @@
 # PCB-Components-Detection-using-Mask-RCNN using Tensorflow 2
 Detecting components on printed circuit boards (PCBs) is a critical task in electronics manufacturing and quality control. This project utilizes Mask R-CNN, implemented with TensorFlow 2.5.0, to accurately identify and localize various PCB components including capacitors, integrated circuits (ICs), connectors, and transistors, achieving a remarkable Mean Average Precision (mAP) score of 0.91.
+
  ![jh](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/22914e99-462c-4756-ada4-66e235cd9a4e) 
 
 
