@@ -3,7 +3,7 @@ Detecting components on printed circuit boards (PCBs) is a critical task in elec
  ![jh](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/22914e99-462c-4756-ada4-66e235cd9a4e) 
 
 
-Annotation tool used : VGG annotator (https://www.robots.ox.ac.uk/~vgg/software/via/) was used for precise annotation of PCB components in the dataset.
+Annotation tool used : VGG annotator (https://www.robots.ox.ac.uk/~vgg/software/via/) was used for precise annotation of PCB components in the dataset..
 
 The ResNet101 backbone was chosen for feature extraction due to its ability to capture complex features, which proved beneficial for accurate component detection. but the model is very complex for the training data which consists of 1971 images(total 20790 region of interest) and 717 validation images (13506 region of interest).Some of the techniques that are followed to improve the model :
 1) **Learning Rate Schedular** - This help to schedule the learning rate after each epoch and aviods the vanishing or exploding gradient descent issue.
