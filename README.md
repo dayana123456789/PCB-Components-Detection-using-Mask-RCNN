@@ -12,8 +12,8 @@ The ResNet101 backbone was chosen for feature extraction due to its ability to c
 4) **Hyperparamater Tunning** - The given below table represents the hyperparameters of the model.
 
    
-   **Limitations of this project**
-   Due to limited GPU resources on Google Colab, the model was trained for up to 50 epochs.
+# Limitations of this project
+  Due to limited GPU resources on Google Colab, the model was trained for up to 50 epochs.
 
 ![HYP1](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/b49fe9e5-6bce-4020-8ac9-32fcc63abd19)
 ![HYP2](https://github.com/dayana123456789/PCB-Components-Detection-using-Mask-RCNN/assets/99783461/d1c68daf-9dfa-49ea-83ae-006e3ac98d3e)
